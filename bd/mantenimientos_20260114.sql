@@ -1,13 +1,13 @@
--- MySQL dump 10.13  Distrib 8.0.36, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.44, for Linux (x86_64)
 --
--- Host: 127.0.0.1    Database: inventario
+-- Host: localhost    Database: mantenimientos
 -- ------------------------------------------------------
 -- Server version	8.0.44-0ubuntu0.22.04.1
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!50503 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
 /*!40103 SET TIME_ZONE='+00:00' */;
 /*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
@@ -203,7 +203,7 @@ CREATE TABLE `django_session` (
 
 LOCK TABLES `django_session` WRITE;
 /*!40000 ALTER TABLE `django_session` DISABLE KEYS */;
-INSERT INTO `django_session` VALUES ('msea5ya3j22mhrifnlri3hewors0lzy4','.eJxVjEEOwiAQRe_C2pCBIoJL9z0DmYFBqgaS0q6Md7dNutDtf-_9twi4LiWsnecwJXEVSpx-N8L45LqD9MB6bzK2uswTyV2RB-1ybIlft8P9OyjYy1YjYzZKaSbyFMHmbBxkp_BiM3Mazhq92ShkAwhIlBx5sBgHVirpQXy-Fgo4_Q:1vP6p9:Ly--NQucksUkIy4P6UJgaefCudLI4wa2Wo4zjEnhnJQ','2025-11-28 22:30:19.880849');
+INSERT INTO `django_session` VALUES ('ey7n88of2njwcj5wnwbxwttpvxucjcnt','.eJxVjM0OwiAQhN-FsyHgAl08evcZCD-7UjU0Ke3J-O62SQ96m8z3zbxFiOtSw9ppDmMRF6HF6bdLMT-p7aA8YrtPMk9tmcckd0UetMvbVOh1Pdy_gxp73dasLWfFmJRHr73j7D2hxuEcXUKXzBYYgMFpMEhoWCEMzmabHLEF8fkC1AQ3Pw:1vg7HU:6uQ0tQz6x6eEPK12PMfoeLbRdXwoghT2Z3TWfiP8Blc','2026-01-14 20:25:52.722276');
 /*!40000 ALTER TABLE `django_session` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -282,7 +282,7 @@ CREATE TABLE `users_user` (
 
 LOCK TABLES `users_user` WRITE;
 /*!40000 ALTER TABLE `users_user` DISABLE KEYS */;
-INSERT INTO `users_user` VALUES (1,'pbkdf2_sha256$1000000$mKxJN7y8btlaze2Emm8ncY$FSz3TV88W5OMnhDQEIwiCoIOehwkeme+C1a5r8fuoSc=','2025-11-28 22:19:17.726737',1,'admin11','','','soportesistemas@cootep.com.co',1,1,'2025-04-04 20:09:23.280060',0);
+INSERT INTO `users_user` VALUES (1,'pbkdf2_sha256$870000$Oc63nTYdYRfDTNwE0yfGoc$2N5Fh3vCJaJ9XaVvUa6qSPXr5NIbLtZNg4QcsvHAA1Q=','2026-01-14 20:15:17.183537',1,'admin11','','','soportesistemas@cootep.com.co',1,1,'2025-04-04 20:09:23.280060',0);
 /*!40000 ALTER TABLE `users_user` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -351,4 +351,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-11-28 17:21:32
+-- Dump completed on 2026-01-14 15:17:31
