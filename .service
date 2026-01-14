@@ -1,0 +1,14 @@
+○ gunicorn-mantenimientos.service
+     Loaded: [0;1;31mbad-setting[0m (Reason: Unit gunicorn-mantenimientos.service has a bad unit file setting.)
+     Active: inactive (dead)
+
+ene 14 21:11:46 cootep systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/etc/systemd/system/gunicorn-mantenimientos.service:8: Assignment outside of section. Ignoring.[0m
+ene 14 21:11:46 cootep systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/etc/systemd/system/gunicorn-mantenimientos.service:10: Assignment outside of section. Ignoring.[0m
+ene 14 21:11:46 cootep systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/etc/systemd/system/gunicorn-mantenimientos.service:11: Assignment outside of section. Ignoring.[0m
+ene 14 21:11:46 cootep systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/etc/systemd/system/gunicorn-mantenimientos.service:12: Assignment outside of section. Ignoring.[0m
+ene 14 21:11:46 cootep systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/etc/systemd/system/gunicorn-mantenimientos.service:14: Assignment outside of section. Ignoring.[0m
+ene 14 21:11:46 cootep systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/etc/systemd/system/gunicorn-mantenimientos.service:15: Assignment outside of section. Ignoring.[0m
+ene 14 21:11:46 cootep systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/etc/systemd/system/gunicorn-mantenimientos.service:16: Assignment outside of section. Ignoring.[0m
+ene 14 21:11:46 cootep systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/etc/systemd/system/gunicorn-mantenimientos.service:17: Assignment outside of section. Ignoring.[0m
+ene 14 21:11:46 cootep systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/etc/systemd/system/gunicorn-mantenimientos.service:19: Assignment outside of section. Ignoring.[0m
+ene 14 21:11:46 cootep systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/etc/systemd/system/gunicorn-mantenimientos.service:20: Assignment outside of section. Ignoring.[0m
