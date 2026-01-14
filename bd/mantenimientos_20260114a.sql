@@ -1,13 +1,13 @@
--- MySQL dump 10.13  Distrib 8.0.36, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.44, for Linux (x86_64)
 --
--- Host: 127.0.0.1    Database: mantenimientos
+-- Host: localhost    Database: mantenimientos
 -- ------------------------------------------------------
--- Server version	8.0.41-0ubuntu0.22.04.1
+-- Server version	8.0.44-0ubuntu0.22.04.2
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!50503 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
 /*!40103 SET TIME_ZONE='+00:00' */;
 /*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
@@ -203,6 +203,7 @@ CREATE TABLE `django_session` (
 
 LOCK TABLES `django_session` WRITE;
 /*!40000 ALTER TABLE `django_session` DISABLE KEYS */;
+INSERT INTO `django_session` VALUES ('ey7n88of2njwcj5wnwbxwttpvxucjcnt','.eJxVjM0OwiAQhN-FsyHgAl08evcZCD-7UjU0Ke3J-O62SQ96m8z3zbxFiOtSw9ppDmMRF6HF6bdLMT-p7aA8YrtPMk9tmcckd0UetMvbVOh1Pdy_gxp73dasLWfFmJRHr73j7D2hxuEcXUKXzBYYgMFpMEhoWCEMzmabHLEF8fkC1AQ3Pw:1vg7HU:6uQ0tQz6x6eEPK12PMfoeLbRdXwoghT2Z3TWfiP8Blc','2026-01-14 20:25:52.722276'),('t5rga3icm7n1av0dwg3xxhuw8ykevp77','.eJxVjMsOwiAQRf-FtSHlDS7d-w1kBgapGkhKuzL-uzbpQrf3nHNfLMK21rgNWuKc2ZkJdvrdENKD2g7yHdqt89TbuszId4UfdPBrz_S8HO7fQYVRv7UWOSmPUucgiSz6CdBqhxKc16ook4xSZF3waIUxpggRhJ5CsCUAWcPeH9G-Nvk:1vg8cl:cQS5OB7sG_7dTG0ZRwkYQcMCgv0eECxuPPBFo9aONEg','2026-01-14 21:51:55.790051');
 /*!40000 ALTER TABLE `django_session` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -272,7 +273,7 @@ CREATE TABLE `users_user` (
   `is_admin` tinyint(1) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `username` (`username`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb3;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -281,7 +282,7 @@ CREATE TABLE `users_user` (
 
 LOCK TABLES `users_user` WRITE;
 /*!40000 ALTER TABLE `users_user` DISABLE KEYS */;
-INSERT INTO `users_user` VALUES (1,'pbkdf2_sha256$320000$oleixtOPpl5UjWeCE9Ber7$hH1hKZ87mwu9Kc1bgm2LIZ9tt7AUK6OsyTTbKLL6eAM=',NULL,1,'admin','','','soportesistemas@cootep.com.co',1,1,'2025-04-04 20:09:23.280060',0);
+INSERT INTO `users_user` VALUES (1,'pbkdf2_sha256$1000000$j1lg75vY5uSrmdZcUZSDVn$n5RvKT3wxgcC6IusDbUt/uxFOXW5UwHWcSefG87UiIk=','2026-01-14 21:32:23.699766',1,'admin11','','','soportesistemas@cootep.com.co',1,1,'2025-04-04 20:09:23.280060',0),(2,'pbkdf2_sha256$1000000$00jSlY850eTwuSlxaqVthe$wgO4f70NdvF8H8sdEHGKZprHbdxCkvc3AucxcoGz1BE=',NULL,1,'CROBLES','CRISTIAN MANUEL ROBLES','','auxsistemas@cootep.com.co',1,1,'2026-01-14 21:37:35.962329',0),(3,'pbkdf2_sha256$1000000$qNVITnKnbPzkIkMrDaryl9$8eJDIDGUcbIFVgefDoO+ap3j24OETXgb7qDzXIY0w7M=',NULL,1,'JROCER','JAIME FERNANDO ROSERO SANCHEZ','','sistemas@cootep.com.co',1,1,'2026-01-14 21:39:18.337167',0),(4,'pbkdf2_sha256$1000000$LoXInRTVR0YdEq3fuuC7h0$wXaZzL2iI6NBBInrUqJwyjmsNltlIrodxXGDv6stJng=',NULL,1,'WMOREN','WILMER MORENO ESTRADA','','oficialseguridad@cootep.com.co',1,1,'2026-01-14 21:39:48.953898',0);
 /*!40000 ALTER TABLE `users_user` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -350,4 +351,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-04-04 15:10:51
+-- Dump completed on 2026-01-14 21:42:30
