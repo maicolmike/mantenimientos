@@ -22,6 +22,12 @@ class Equipo(models.Model):
     funcionario_a_cargo = models.CharField(max_length=100,blank=True, null=True)
     observaciones = models.TextField(blank=True, null=True)
     funcionario_registra = models.CharField(max_length=100,blank=True, null=True)
+    # 👉 NUEVO CAMPO
+    agencia = models.CharField(
+        max_length=100,
+        blank=True,
+        null=True
+    )
 
     def __str__(self):
         return f"{self.marca} {self.modelo} ({self.serial})"

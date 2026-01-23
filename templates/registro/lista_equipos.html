@@ -37,6 +37,7 @@
                         <th>Funcionario a Cargo</th>
                         <th>Observaciones</th>
                         <th>Funcionario Registra</th>
+                        <th>Agencia</th>
                         <th>Editar</th>
                         <th>Borrar</th>
                 </tr>
@@ -70,6 +71,7 @@
                             {% endif %}
                         </td>
                         <td>{{ equipo.funcionario_registra }}</td>
+                        <td>{{ equipo.agencia }}</td>
                         <td style="text-align: center;">
                             <a href="{% url 'editar_equipo' equipo.id %}" class="btn btn-success btn-sm">
                                 <i class="fa fa-edit"></i>

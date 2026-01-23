@@ -70,6 +70,19 @@ CAPACIDAD = [
     ('2 TB', '2 TB'),
 ]
 
+# Definición de opciones para el campo de agencia
+AGENCIA_CHOICES = [
+    ('', 'Seleccionar'),
+    ('MOCOA', 'Mocoa'),
+    ('PUERTO ASIS', 'Puerto Asis'),
+    ('DORADA', 'Dorada'),
+    ('HORMIGA', 'Hormiga'),
+    ('ORITO', 'Orito'),
+    ('VILLA GARZON', 'Villa Garzon'),
+    ('PUERTO LEGUIZAMO', 'Puerto Leguizamo'),
+    ('SIBUNDOY', 'Sibundoy'),
+]
+
 class EquipoForm(forms.ModelForm):
     class Meta:
         model = Equipo
@@ -98,6 +111,7 @@ class EquipoForm(forms.ModelForm):
             'any_desk': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'AnyDesk'}),
             'clave_admin': forms.TextInput(attrs={'class': 'form-control'}),
             'funcionario_a_cargo': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Funcionario a Cargo'}),
+            'agencia': forms.Select(attrs={'class': 'form-control', 'id': 'agencia','required': 'required'}, choices=AGENCIA_CHOICES),
             'observaciones': forms.Textarea(attrs={'class': 'form-control', 'rows': 3}),
             'funcionario_registra': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Funcionario registra'}),
         }
